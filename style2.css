@@ -1,0 +1,34 @@
+@media (max-width: 480px) {
+  body {
+    height: 100vh;
+  }
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .left {
+    width: 100%;
+    height: 75%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .right {
+    width: 100%;
+    height: 25%;
+    padding: 20px;
+  }
+  .left > h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  input,
+  button {
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+}
